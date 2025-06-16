@@ -1,1 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
+
+body{
+ font-family: "Outfit", sans-serif;
+}
+
+@theme {
+    --color-background: var(--background);
+    --color-text:var(--black);
+    --color-subText:var(--grey);
+    --color-lightText:var(--lightgrey);
+    --color-border:var(--lightergrey);
+}
+
+:root {
+    --background:#f9f9f9;
+    --grey:#6e6e6e;
+    --black:#000;
+    --lightgrey:#b3b3b3;
+    --lightergrey:#e8e8e8;
+}
+
+.dark{
+    --background:#141414;
+    --grey:#6e6e6e;
+    --black:#fff;
+    --lightgrey:#615f5f;
+    --lightergrey:#d3d3d3;
+}
